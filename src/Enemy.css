@@ -1,0 +1,46 @@
+.Enemy {
+position: absolute;
+box-sizing: border-box;
+border: 2px solid #fff;
+background-color: #fff;
+float: left;
+width: 0.25em;
+height: 0.25em;
+margin: 40px 40px;
+
+box-shadow:
+    0 0 0 .25em #fff,
+    0 .25em 0 .25em #fff,
+    -.625em .375em 0 .125em #fff,
+    .625em .375em 0 .125em #fff,
+    -.75em -.75em 0 0 #fff,
+    .75em -.75em 0 0 #fff,
+    -.5em -.5em 0 0 #fff,
+    .5em -.5em 0 0 #fff,
+    -.75em -.25em 0 0 #fff,
+    -.5em -.25em 0 0 #fff,
+    .5em -.25em 0 0 #fff,
+    .75em -.25em 0 0 #fff,
+    -1em 0 0 0 #fff,
+    -.75em 0 0 0 #fff,
+    .75em 0 0 0 #fff,
+    1em 0 0 0 #fff,
+    -1em .25em 0 0 #fff,
+    1em .25em 0 0 #fff,
+    -.75em .75em 0 0 #fff,
+    .75em .75em 0 0 #fff,
+    /* Left Arm */
+    1.25em .25em 0 0 #fff,
+    1.25em .5em 0 0 #fff,
+    1.25em .75em 0 0 #fff,
+    /* Right Arm */
+    -1.25em .25em 0 0 #fff,
+    -1.25em .5em 0 0 #fff,
+    -1.25em .75em 0 0 #fff,
+    /* Left Foot */
+    -.25em 1em 0 0 #fff,
+    -.5em 1em 0 0 #fff,
+    /* Right Foot */
+    .25em 1em 0 0 #fff,
+    .5em 1em 0 0 #fff;
+}

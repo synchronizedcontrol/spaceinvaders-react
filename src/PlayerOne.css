@@ -1,0 +1,19 @@
+.PlayerOne {
+    position: absolute;
+    left: 380px;
+    top: 510px; 
+    border: 2px solid #fff;
+    background-color: #fff;
+    float: left;
+    width: 0.25em;
+    height: 0.25em;
+    margin: 40px 40px;
+    box-shadow: 
+        0 0 0 .25em #fff,
+        .625em 0 0 .25em #fff,
+        -.625em 0 0 .25em #fff,
+        1em .0625em 0 .1875em #fff,
+        -1em .0625em 0 .1875em #fff,
+        0 -.25em 0 .25em #fff,
+        0 -.625em 0 0 #fff; 
+}
